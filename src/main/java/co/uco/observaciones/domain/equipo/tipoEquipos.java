@@ -1,4 +1,4 @@
-package co.uco.observaciones.domain;
+package co.uco.observaciones.domain.equipo;
 
 public class tipoEquipos {
 

@@ -1,6 +1,6 @@
-package co.uco.observaciones.domain;
+package co.uco.observaciones.domain.equipo;
 
-public class equipos {
+public class Equipo {
 
     private long id;
 
@@ -8,7 +8,7 @@ public class equipos {
 
     private tipoEquipos tipoEquipo;
 
-    public equipos(){
+    public Equipo(){
         this.id=1;
         this.marca="no hay ninguna marca encontrada";
         this.tipoEquipo = new tipoEquipos();

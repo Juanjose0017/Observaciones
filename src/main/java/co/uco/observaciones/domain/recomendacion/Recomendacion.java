@@ -1,12 +1,12 @@
-package co.uco.observaciones.domain;
+package co.uco.observaciones.domain.recomendacion;
 
-public class recomendaciones {
+public class Recomendacion {
 
     private long id;
 
     private String recomendacion;
 
-    public recomendaciones(){
+    public Recomendacion(){
         this.id=1;
         this.recomendacion = "ninguna recomendacion aun";
     }

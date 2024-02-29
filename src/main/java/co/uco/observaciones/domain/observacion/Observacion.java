@@ -1,21 +1,23 @@
-package co.uco.observaciones.domain;
+package co.uco.observaciones.domain.observacion;
+
+import co.uco.observaciones.domain.recomendacion.Recomendacion;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class observaciones {
+public class Observacion {
 
     private long id;
 
-    private List<recomendaciones> recomendacionesList = new ArrayList<>();
+    private List<Recomendacion> recomendacionList = new ArrayList<>();
 
     private String descripcion;
 
     private String mejora;
 
-    public observaciones (){
+    public Observacion(){
         this.id=1;
-        this. recomendacionesList.add(new recomendaciones());
+        this.recomendacionList.add(new Recomendacion());
         this.descripcion= "vacio";
         this.mejora="vacio";
     }
@@ -36,11 +38,11 @@ public class observaciones {
         this.descripcion = descripcion;
     }
 
-    public List<recomendaciones> getRecomendacionesList(){
-        return  recomendacionesList;
+    public List<Recomendacion> getRecomendacionesList(){
+        return recomendacionList;
     }
-    public void setRecomendacionesList(List<recomendaciones> recomendacionesList) {
-        this.recomendacionesList = recomendacionesList;
+    public void setRecomendacionesList(List<Recomendacion> recomendacionList) {
+        this.recomendacionList = recomendacionList;
     }
 
     public String getMejora() {
